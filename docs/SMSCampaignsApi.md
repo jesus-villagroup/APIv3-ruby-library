@@ -1,6 +1,6 @@
 # SibApiV3Sdk::SMSCampaignsApi
 
-All URIs are relative to *https://api.sendinblue.com/v3*
+All URIs are relative to *https://api.brevo.com/v3*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -460,7 +460,7 @@ api_instance = SibApiV3Sdk::SMSCampaignsApi.new
 
 campaign_id = 789 # Integer | Id of the SMS campaign
 
-phone_number = SibApiV3Sdk::SendTestSms.new # SendTestSms | Mobile number of the recipient with the country code. This number must belong to one of your contacts in SendinBlue account and must not be blacklisted
+phone_number = SibApiV3Sdk::SendTestSms.new # SendTestSms | Mobile number of the recipient with the country code. This number must belong to one of your contacts in Brevo account and must not be blacklisted
 
 
 begin
@@ -476,7 +476,7 @@ end
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **campaign_id** | **Integer**| Id of the SMS campaign | 
- **phone_number** | [**SendTestSms**](SendTestSms.md)| Mobile number of the recipient with the country code. This number must belong to one of your contacts in SendinBlue account and must not be blacklisted | 
+ **phone_number** | [**SendTestSms**](SendTestSms.md)| Mobile number of the recipient with the country code. This number must belong to one of your contacts in Brevo account and must not be blacklisted | 
 
 ### Return type
 
